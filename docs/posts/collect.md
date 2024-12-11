@@ -12,3 +12,5 @@ sticky: 10
 ## 被墙网站
 
 [中国报道周刊](https://www.china-week.com)——被墙、仿佛已停更
+
+[中国数字时代](https://chinadigitaltimes.net/chinese/) -- 仍在更新
