@@ -25,7 +25,7 @@ features:
   - title: 广泛的了解
     details: Android 应用、IOS 应用、WeChat 小程序、WeChat 公众号、Unity 3D 游戏、Vue、Next.Js
 
-footer: MIT Licensed | Copyright © 2024-present Ethan Spruance Chen
+footer: MIT Licensed | Copyright © 2024-present Ethan S. Chen
 ---
 
 Repo:
