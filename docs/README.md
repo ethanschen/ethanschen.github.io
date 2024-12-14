@@ -25,11 +25,8 @@ features:
   - title: 广泛的了解
     details: Android 应用、IOS 应用、WeChat 小程序、WeChat 公众号、Unity 3D 游戏、Vue、Next.Js
 
+## 谨记：
+- 如果某人的知识结构只有广度而没有深度，就会导致——其个人能力没有突出的亮点——这种人往往没有太强的竞争力。
+
 footer: MIT Licensed | Copyright © 2024-present Ethan S. Chen
 ---
-
-Repo:
-
-- [promethues/client_python][promethues/client_python]
-
-[promethues/client_python]: https://github.com/prometheus/client_python/releases/tag/v0.19.0
