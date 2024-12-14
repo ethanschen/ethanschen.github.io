@@ -20,10 +20,10 @@ features:
     details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
   - title: Themes
     details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 深入的研究
+    details: Python 语言
+  - title: 广泛的了解
+    details: Android 应用、IOS 应用、WeChat 小程序、WeChat 公众号、Unity 3D 游戏、Vue、Next.Js
 
 footer: MIT Licensed | Copyright © 2024-present Ethan Spruance Chen
 ---
