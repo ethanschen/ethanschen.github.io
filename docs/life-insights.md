@@ -2,6 +2,15 @@
 
 This is a normal page, which contains VuePress basics.
 
+## 谨记：
+
+- 如果某人的知识结构只有广度而没有深度，就会导致——其个人能力没有突出的亮点——这种人往往没有太强的竞争力。
+
+## 格言
+
+- 高等教育的价值在于【训练思维】，而不在于传授事实。
+（The value of a college education is not the learning of many facts but the training of the mind to think.）
+
 ## Pages
 
 You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.

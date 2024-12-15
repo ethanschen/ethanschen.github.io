@@ -3,12 +3,12 @@ home: true
 title: Home
 heroImage: https://res.cloudinary.com/dbsadrsxp/image/upload/v1722173705/esc-logo_bzi4lw.jpg
 actions:
-  - text: Get Started
-    link: /getting-started.html
+  - text: 人生经历
+    link: /life-experience.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: 人生感悟
+    link: /life-insights.html
     type: secondary
 
 features:
@@ -24,9 +24,6 @@ features:
     details: Python 语言
   - title: 广泛的了解
     details: Android 应用、IOS 应用、WeChat 小程序、WeChat 公众号、Unity 3D 游戏、Vue、Next.Js
-
-## 谨记：
-- 如果某人的知识结构只有广度而没有深度，就会导致——其个人能力没有突出的亮点——这种人往往没有太强的竞争力。
 
 footer: MIT Licensed | Copyright © 2024-present Ethan S. Chen
 ---
