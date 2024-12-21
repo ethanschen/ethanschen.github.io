@@ -3,41 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <meta name="generator" content="VuePress 2.0.0-rc.19" />
     <style>
       :root {
-        --c-bg: #fff;
+        --vp-c-bg: #fff;
       }
 
-      html.dark {
-        --c-bg: #22272e;
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
       }
 
       html,
       body {
-        background-color: var(--c-bg);
+        background-color: var(--vp-c-bg);
       }
     </style>
     <script>
       const userMode = localStorage.getItem('vuepress-color-scheme')
       const systemDarkMode =
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
 
       if (userMode === 'light') {
         document.documentElement.dataset.theme = 'light'
       } else if (userMode === 'dark' || systemDarkMode) {
-        document.documentElement.classList.toggle('dark', true)
         document.documentElement.dataset.theme = 'dark'
       }
     </script>
     <title>Ethan S. Chen'Blog</title><meta name="description" content="Welcome to my blog">
-    <link rel="preload" href="/assets/style-CPtAZutf.css" as="style"><link rel="stylesheet" href="/assets/style-CPtAZutf.css">
-    <link rel="modulepreload" href="/assets/app-B63ozVEI.js"><link rel="modulepreload" href="/assets/404.html-CFcC5695.js">
-    <link rel="prefetch" href="/assets/index.html-BFv_0STd.js" as="script"><link rel="prefetch" href="/assets/life-experience.html-DFnOakMr.js" as="script"><link rel="prefetch" href="/assets/life-insights.html-CT-PHwjV.js" as="script"><link rel="prefetch" href="/assets/Macroeconomics.html-D9kyLJiW.js" as="script"><link rel="prefetch" href="/assets/collect.html-aiAYlbfN.js" as="script"><link rel="prefetch" href="/assets/image-storage-platform.html-DwS72qzc.js" as="script"><link rel="prefetch" href="/assets/iterm2-configuration.html-TGseeBTe.js" as="script"><link rel="prefetch" href="/assets/reading-notes-2024-10-20.html-KMK5SaWl.js" as="script"><link rel="prefetch" href="/assets/site-speed-test.html-Na4Bd8MA.js" as="script"><link rel="prefetch" href="/assets/index.html-CznJM0lg.js" as="script"><link rel="prefetch" href="/assets/index.html-Ceq7AiLL.js" as="script"><link rel="prefetch" href="/assets/index.html-DJDTM64F.js" as="script"><link rel="prefetch" href="/assets/index.html-CnxaFLkK.js" as="script"><link rel="prefetch" href="/assets/index.html-Dv_L9oXl.js" as="script"><link rel="prefetch" href="/assets/index.html-BY3e-3fx.js" as="script"><link rel="prefetch" href="/assets/index.html-BDzKTswa.js" as="script"><link rel="prefetch" href="/assets/index.html-rnvgg57F.js" as="script"><link rel="prefetch" href="/assets/index.html-DLIQ5rmL.js" as="script"><link rel="prefetch" href="/assets/index.html-CluLQBc7.js" as="script"><link rel="prefetch" href="/assets/index.html-1yH3yi9C.js" as="script"><link rel="prefetch" href="/assets/index.html-QqgWs0QZ.js" as="script"><link rel="prefetch" href="/assets/index.html-D9pu9b4J.js" as="script"><link rel="prefetch" href="/assets/index.html-X8vkGjVY.js" as="script"><link rel="prefetch" href="/assets/index.html-Dk-KiUIl.js" as="script"><link rel="prefetch" href="/assets/index.html-CqF984eu.js" as="script"><link rel="prefetch" href="/assets/index.html-3Kph9h29.js" as="script">
+    <link rel="preload" href="/assets/style-D533VdVA.css" as="style"><link rel="stylesheet" href="/assets/style-D533VdVA.css">
+    <link rel="modulepreload" href="/assets/app-Dw_bfyJo.js"><link rel="modulepreload" href="/assets/404.html-CZlpUkal.js">
+    <link rel="prefetch" href="/assets/index.html-CUcaI479.js" as="script"><link rel="prefetch" href="/assets/life-experience.html-XMxPQF_4.js" as="script"><link rel="prefetch" href="/assets/life-insights.html-Oj0KRpq4.js" as="script"><link rel="prefetch" href="/assets/Macroeconomics.html-BZKhhNMN.js" as="script"><link rel="prefetch" href="/assets/collect.html-DDHlf4uv.js" as="script"><link rel="prefetch" href="/assets/image-storage-platform.html-B1qDTjj5.js" as="script"><link rel="prefetch" href="/assets/iterm2-configuration.html-JZyJrp-G.js" as="script"><link rel="prefetch" href="/assets/reading-notes-2024-10-20.html-D6_xdvr1.js" as="script"><link rel="prefetch" href="/assets/site-speed-test.html-DFkoRwH3.js" as="script"><link rel="prefetch" href="/assets/index.html-Wq79ueDp.js" as="script"><link rel="prefetch" href="/assets/index.html-Dzlck0Zs.js" as="script"><link rel="prefetch" href="/assets/index.html-u3EcS36l.js" as="script"><link rel="prefetch" href="/assets/index.html-CzMesgIF.js" as="script"><link rel="prefetch" href="/assets/index.html-CbVKyeoO.js" as="script"><link rel="prefetch" href="/assets/index.html-BNk2L03Q.js" as="script"><link rel="prefetch" href="/assets/index.html-DwcDBK4I.js" as="script"><link rel="prefetch" href="/assets/index.html-DEulmDHo.js" as="script"><link rel="prefetch" href="/assets/index.html-DrEFDNwW.js" as="script"><link rel="prefetch" href="/assets/index.html-B_lZrJbV.js" as="script"><link rel="prefetch" href="/assets/index.html-BhZ6opT-.js" as="script"><link rel="prefetch" href="/assets/index.html-CO_Uy8tU.js" as="script"><link rel="prefetch" href="/assets/index.html-BxJc_Ikn.js" as="script"><link rel="prefetch" href="/assets/index.html-DQPaPLN7.js" as="script"><link rel="prefetch" href="/assets/index.html-Ce3mtPqc.js" as="script"><link rel="prefetch" href="/assets/index.html-C5xbZeJQ.js" as="script"><link rel="prefetch" href="/assets/index.html-BmiJJNUk.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-BGKxVgEd.js" as="script">
   </head>
   <body>
-    <div id="app"><!--[--><div class="vp-theme-container" data-v-303656ba><main class="page" data-v-303656ba><div class="theme-default-content" data-v-303656ba><h1 data-v-303656ba>404</h1><blockquote data-v-303656ba>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/" data-v-303656ba>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
-    <script type="module" src="/assets/app-B63ozVEI.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-67c08c1d><main class="page" data-v-67c08c1d><div class="theme-default-content" vp-content data-v-67c08c1d><h1 data-v-67c08c1d>404</h1><blockquote data-v-67c08c1d>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/" data-v-67c08c1d>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Dw_bfyJo.js" defer></script>
   </body>
 </html>
