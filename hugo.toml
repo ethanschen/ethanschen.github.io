@@ -36,7 +36,7 @@ page = "/:slug/"
 
 [params]
 description = "Ethan S. Chen 的个人网站"
-mainSections = [ "tech" ]
+mainSections = [ "tech", "life" ]
 featuredImageField = "image"
 rssFullContent = true
 favicon = "https://res.cloudinary.com/dbsadrsxp/image/upload/t_Thumbnail/v1736068974/2025-01-05-%E5%8F%B0%E6%B9%BE%E6%8D%B7%E8%BF%90%E4%B8%AA%E4%BA%BA%E7%85%A7_qtsgsm.jpg"

@@ -17,7 +17,7 @@ comments: true
 
 ## 个人信息
 
-- 陈亿强/男/1998
+- 男/1998
 - 本科/福建农林大学软件工程系
 - 工作年限: 5年
 - 技术博客: [https://www.ethans.space](https://www.ethans.space)
